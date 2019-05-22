@@ -13,7 +13,7 @@ document.onkeyup = function (event) {
     document.getElementById("losses").innerHTML = losses
   }
   if (guessesLeft < 0) {
-    guessesLeft = 10
+    guessesLeft = 11
     computerGuess = alphabet[Math.floor(Math.random() * alphabet.length)]
   }
   if (event.key === computerGuess) {
